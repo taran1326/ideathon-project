@@ -1,0 +1,138 @@
+@import url('https://font.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto' sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.left img{
+  width: 50px;
+  height: 50px;
+}
+
+.container{
+  /* //padding : 0 120px; */
+  /* margin: 0px 13px; */
+  /* max-width: 80vw; */
+  /* margin: auto; */
+}
+.navbar{
+  font-size:15px;
+  position: sticky;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 12px;
+}
+
+header {
+  /* position: sticky; */
+  top:0;
+  box-shadow: rgba(0,0,0,0.35) 1.95px 1.95px 2.6px;
+  background:  white;
+  /* height: 150px; */
+}
+
+.s1{
+  background: #f5f0f0;
+  /* height:100rem; */
+}
+.mapouter{
+  padding: 15px;
+}
+.map-locn{
+  margin:20px;
+  display: flex;
+}
+.loc{
+  /* padding : 5px; */
+  margin-top: 15px;
+  margin-left: 300px;
+}
+.divider-text {
+  position: relative;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.divider-text span {
+  padding: 7px;
+  font-size: 12px;
+  position: relative;   
+  z-index: 2;
+}
+.divider-text:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  top: 55%;
+  left: 0;
+  z-index: 1;
+}
+.heheh{
+  margin: 10px;
+}
+.s3{
+  display: flex;
+  /* background-image: url("hero_image.png") ; */
+  background-color: #ff4c68;
+  /* margin: 35px; */
+  padding: 35px;
+}
+.card-title{
+  font-weight: bolder;
+  font-style: italic;
+}
+@media (max-width: 1000px) {
+  
+  .map-locn{
+    
+      flex-direction: column;
+    
+  }
+  .loc{
+    margin-left:20px;
+  }
+  /* .mapouter{
+    margin-left:150px;
+  } */
+  .s3{
+    flex-direction: column;
+  }
+  .all{
+    flex-direction: column;
+  }
+}
+.all{
+  display: flex;
+  margin:auto;
+  background-color: #ff4c68;
+}
+@media(max-width: 800px){
+  
+}
+.cod{
+  text-align: center;
+}
+.yu{
+  margin:10px;
+}
+.yert{
+  margin-top:15px;
+}
+#finalFoot{
+  margin-top:50px;
+  /* height:1000px; */
+  /* position: absolute; */
+  text-align: center;
+  margin-left: -480px;
+  padding-left: 0;
+  width:1500px;
+  background-color:#6495ED 	;
+}
